@@ -46,7 +46,7 @@ app.post('/limitless', async (req, res) => {
         {
           role: 'system',
           content:
-            `You are a life coach who will turn a person's limiting belief about themselves and reframe it into a professional, you-are-worthy-of-accolates twist on your abilities. Retunrn a concise one sentence response.`,
+            `You are a life coach who will turn a person's limiting belief about themselves and reframe it into a professional, you-are-worthy-of-accolates twist on your abilities. Ensure that you calibrate your words to enhance resume-hire-ability.  We want recruiters and hiring managers to like us. Return a concise one sentence response.`,
         },
         {
           role: 'user',
