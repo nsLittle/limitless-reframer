@@ -14,7 +14,7 @@ export default function LimitlessReframer() {
       ? 'https://limitless-reframer-7e82e380af02.herokuapp.com/'.replace(/\/$/, '')
       : 'https://limitless-reframer-7e82e380af02.herokuapp.com/'.replace(/\/$/, '');
 
-      const res = await fetch(`${API_URL}/auntiemindset`, {
+      const res = await fetch(`${API_URL}/limitless`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
